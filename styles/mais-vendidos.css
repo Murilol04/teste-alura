@@ -1,0 +1,44 @@
+.mais-vendidos{
+    text-align: center;
+   
+}
+
+.mais-vendidos__titulo{
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-principal);
+}
+.card__descricao, .card__botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__descricao{
+    margin-bottom: 0.5em;
+    gap: 1em;
+    text-align: left;
+}
+.descricao__titulo{
+    font-weight: 700;
+    color: var(--laranja);
+}
+.descricao__nome-autor{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.descricao__texto{
+    font-size: 14px;
+}
+.imagem-autor-do-mes{
+    border-radius: 2px;
+    width: 161px;
+}
+.card__estrelas{
+    margin-bottom: 0.5em;
+}
